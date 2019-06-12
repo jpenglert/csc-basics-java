@@ -26,4 +26,9 @@ public class LinkedListNode {
             p.setNext(this);
         }
     }
+
+    @Override
+    public String toString() {
+        return "data=" + data;
+    }
 }
